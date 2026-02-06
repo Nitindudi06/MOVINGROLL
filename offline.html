@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1a365d" />
+    <title>Offline - Moving Roll</title>
+    <style>
+      body { margin: 0; font-family: system-ui, Arial, sans-serif; background: #0f172a; color: #fff; }
+      .wrap { min-height: 100vh; display: grid; place-items: center; padding: 24px; text-align: center; }
+      .card { max-width: 560px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); border-radius: 16px; padding: 24px; }
+      h1 { margin: 0 0 8px; font-size: 22px; }
+      p { margin: 6px 0; opacity: 0.9; }
+      .btn { margin-top: 14px; background: #22c55e; color: #0b141b; border: 0; padding: 10px 14px; border-radius: 10px; font-weight: 600; cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>You're offline</h1>
+        <p>The app is still available for core features. When you reconnect, everything will sync.</p>
+        <p>Tip: Install the app for a faster, app-like experience that works better offline.</p>
+        <button class="btn" onclick="location.reload()">Retry</button>
+      </div>
+    </div>
+  </body>
+</html>
